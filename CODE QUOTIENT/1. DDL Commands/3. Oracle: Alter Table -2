@@ -1,0 +1,3 @@
+alter table students rename column phone to contact;
+alter table students modify stud_name varchar(30);
+alter table students drop column marks;
