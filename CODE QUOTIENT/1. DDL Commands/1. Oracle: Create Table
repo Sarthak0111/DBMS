@@ -1,0 +1,1 @@
+create table students(rollno int,studentName varchar(50),branch varchar(10),semester int);
