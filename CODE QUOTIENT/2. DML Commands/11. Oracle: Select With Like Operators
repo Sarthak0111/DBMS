@@ -1,0 +1,1 @@
+select rollNo,studentName from student where studentName like '_a%';
