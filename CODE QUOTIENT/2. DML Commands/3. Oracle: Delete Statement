@@ -1,0 +1,2 @@
+delete from student where semester=2 and branch='ECE';
+delete from student WHERE branch is null;
