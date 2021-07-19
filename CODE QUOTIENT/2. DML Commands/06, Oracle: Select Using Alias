@@ -1,0 +1,1 @@
+select roll_no as "id",fname as "name" from students;
