@@ -1,0 +1,3 @@
+update student set studentName='Sumit Sharma' where rollNo='654';
+update student set semester=4 where semester is null;
+update student set branch='Civil' where rollNo='655';
