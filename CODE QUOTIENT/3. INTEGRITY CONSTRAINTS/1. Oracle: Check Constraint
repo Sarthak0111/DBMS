@@ -1,0 +1,2 @@
+create table students(id int,name varchar(50), age int, constraint age check(age>15));
+alter table dept add constraint dept_id check (dept_id>100);
