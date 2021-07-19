@@ -1,0 +1,3 @@
+select studentName from student;
+select semester,studentName,rollNo from student;
+select * from student;
