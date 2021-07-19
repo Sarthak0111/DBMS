@@ -1,0 +1,3 @@
+select rollNo, studentName from student where semester=4 and marks>75;
+select rollNo, studentName from student where branch='ECE' or semester=6;
+select rollNo from student where branch='CSE' or marks<40;
