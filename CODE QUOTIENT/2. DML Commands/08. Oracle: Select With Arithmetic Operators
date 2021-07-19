@@ -1,0 +1,2 @@
+select * from student where marks/2>40;
+select studentName as "studname", marks+10 as "inc_marks" from student;
