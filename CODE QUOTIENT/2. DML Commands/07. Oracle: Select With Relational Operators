@@ -1,0 +1,5 @@
+select marks from student where studentName='Hardik';
+select rollNo from student where studentName !='Kanav';
+select rollNo,StudentName from student where branch='CSE';
+select studentName from student where rollNo>653;
+select branch from student where rollNo>654;
