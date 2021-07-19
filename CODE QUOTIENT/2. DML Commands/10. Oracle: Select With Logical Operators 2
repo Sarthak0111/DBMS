@@ -1,0 +1,3 @@
+select rollNo from student where marks between 55 and 65;
+select studentName from student where branch in ('CSE','ME');
+select rollNo,marks from student where branch not in ('IT','ECE','ME');
