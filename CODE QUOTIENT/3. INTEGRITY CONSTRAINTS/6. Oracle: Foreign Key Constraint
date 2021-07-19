@@ -1,0 +1,2 @@
+create table dept(dept_id int primary key, dept_name varchar(50));
+create table students(roll_no int,student_name varchar(50),age int,dept_id int, foreign key(dept_id) references dept(dept_id));
