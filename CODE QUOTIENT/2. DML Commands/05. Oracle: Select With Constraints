@@ -1,0 +1,1 @@
+select rollNo from student where branch is null;
