@@ -1,0 +1,2 @@
+create table students(id int,name varchar(50),age int, branch varchar(10) default 'CSE');
+alter table dept modify dept_name default 'ECE';
