@@ -1,1 +1,6 @@
-
+insert into student values(106,'Ajay','CSE',4);
+insert into student values(107,'Atul','ECE',6);
+insert into student(rollNo,studentName,semester) values(108,'Yuvraj',6);
+insert into student(rollNo,studentName,semester) values(109,'Vaibhav',4);
+insert into student(rollNo,studentName,branch) values(110,'Utkarsh','CSE');
+insert into student(rollNo,studentName,branch) values(111,'Rohit','Civil');
