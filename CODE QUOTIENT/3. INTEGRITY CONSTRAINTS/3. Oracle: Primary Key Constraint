@@ -1,0 +1,2 @@
+CREATE TABLE students(id int primary key, name varchar(50),age int);
+ALTER TABLE DEPT ADD primary key(dept_id);
