@@ -1,0 +1,2 @@
+select empno as "empid" from emp emp1 where sal=(select max(sal) from emp where deptno=emp1.deptno);
+select empno as "empid" ,ename as "ename" from emp emp1 where exists (select empno from emp where mgr=emp1.empno);
