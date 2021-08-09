@@ -1,0 +1,2 @@
+select empno as "empid", ename as "empname" from emp where mgr=(select empno from emp where ename='KING');
+select empno as "empid", ename as "empname" from emp where JOB='ANALYST' and sal=(select max(sal) from emp where job='ANALYST');
