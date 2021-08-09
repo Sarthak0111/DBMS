@@ -1,0 +1,2 @@
+select empno from emp where sal=(select max(sal) from emp where deptno=(select deptno from dept where dname='ACCOUNTING'));
+select avg(sal) from emp where deptno=(select deptno from dept where dname='SALES');
