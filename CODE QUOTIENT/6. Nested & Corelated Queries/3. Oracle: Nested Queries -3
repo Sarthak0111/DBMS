@@ -1,0 +1,2 @@
+select empno as "empid", ename as "empname" from emp where sal>(select avg(sal) from emp);
+select empno as "empid", ename as "empname",hiredate as "joining" from emp where deptno=(select deptno from dept where loc='DALLAS');
